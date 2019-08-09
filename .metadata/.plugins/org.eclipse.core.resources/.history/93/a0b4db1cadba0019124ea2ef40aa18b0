@@ -1,0 +1,8 @@
+package br.com.fiap.dao;
+
+import br.com.fiap.resource.ClienteTO;
+
+public interface AulaDAO extends GenericDAO<ClienteTO, Integer>{
+
+	
+}

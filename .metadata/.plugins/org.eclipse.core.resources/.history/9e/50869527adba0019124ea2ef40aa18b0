@@ -1,0 +1,15 @@
+package br.com.fiap.dao.impl;
+
+import javax.persistence.EntityManager;
+
+import br.com.fiap.dao.ClienteDAO;
+import br.com.fiap.resource.ClienteTO;
+
+public class AulaDAOImpl extends GenericDAOImpl<ClienteTO, Integer> implements ClienteDAO{
+
+	public AulaDAOImpl(EntityManager em) {
+		super(em);
+		// TODO Auto-generated constructor stub
+	}
+
+}
